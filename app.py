@@ -29,4 +29,4 @@ if uploaded_file is not None:
     predicted_class = class_names[np.argmax(prediction)]
 
     # Show prediction
-    st.markdown(f"### 🥳 Predicted Class: **{predicted_class}**")
+    st.markdown(f"### Predicted Class: **{predicted_class}**")
